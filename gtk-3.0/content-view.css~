@@ -23,7 +23,7 @@
                     from (#f8f8f8),
                     color-stop (0.8, #f8f8f8),
                     to (#f0f0f0));
-
+    
     border-radius: 5px;
 
     border-width: 1px;
@@ -126,9 +126,6 @@
     -unico-inner-stroke-width: 1;
 
     color: @text_color;
-
-    color: white;
-
     text-shadow: 0 1 alpha (#fff, 0.60);
 
     border-style: solid;

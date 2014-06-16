@@ -234,6 +234,10 @@ GraniteWidgetsPopOver .button:hover:active {
 
     background-color: alpha (#000, 0.05);
 
+    /*-unico-border-gradient: -gtk-gradient (linear,
+                     left top, left bottom,
+                     from (shade (@base_color, 0.74)),
+                     to (shade (@base_color, 0.74)));*/
     -unico-border-gradient: -gtk-gradient (linear,
                      left top, left bottom,
                      from (shade (@base_color, 0.74)),

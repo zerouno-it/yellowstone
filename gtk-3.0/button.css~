@@ -344,3 +344,13 @@ GtkInfoBar .button:hover:insensitive {
 
 }
 
+.linked .button:active,
+.button.linked:active,
+.linked .button:active:first-child,
+.linked .button:active:last-child,
+.linked .button:active:only-child
+{
+	background-color: #555;
+	color: white;
+}
+

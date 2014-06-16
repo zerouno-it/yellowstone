@@ -140,13 +140,15 @@
 <!-- ::: TITLES ::: -->
 
 <draw_ops name="title_focused">
-	<title color="shade/gtk:bg[NORMAL]/1.30" x="((width - title_width) / 2) `max` 0" y="1 `max` ((height-title_height)/2)+1"/>
-	<title color="shade/gtk:text[NORMAL]/2.00" x="((width - title_width) / 2) `max` 0" y="0 `max` ((height-title_height)/2)"/>
+	<!--<title color="shade/gtk:bg[NORMAL]/1.30" x="((width - title_width) / 2) `max` 0" y="1 `max` ((height-title_height)/2)+1"/>-->
+	<!--<title color="shade/gtk:text[NORMAL]/2.00" x="((width - title_width) / 2) `max` 0" y="0 `max` ((height-title_height)/2)"/>-->
+	<title color="shade/gtk:text[NORMAL]/3" x="((width - title_width) / 2) `max` 0" y="0 `max` ((height-title_height)/2)"/>
+
 </draw_ops>
 
 <draw_ops name="title_unfocused">
-	<title color="shade/gtk:bg[NORMAL]/1.15" x="((width - title_width) / 2) `max` 0" y="1 `max` ((height-title_height)/2)+1"/>
-	<title color="shade/gtk:text[NORMAL]/2.50" x="((width - title_width) / 2) `max` 0" y="0 `max` ((height-title_height)/2)"/>
+	<title color="shade/gtk:bg[NORMAL]/3.5" x="((width - title_width) / 2) `max` 0" y="1 `max` ((height-title_height)/2)+1"/>
+	<title color="shade/gtk:text[NORMAL]/4.50" x="((width - title_width) / 2) `max` 0" y="0 `max` ((height-title_height)/2)"/>
 </draw_ops>
 
 <!-- ::: TITLEBAR ::: -->
@@ -161,23 +163,23 @@
 
 <draw_ops name="titlebar_fill_focused">
 	<gradient type="vertical" x="1" y="1" width="width-2" height="height-2">
-		<color value="shade/gtk:bg[NORMAL]/1.04"/>
-		<color value="shade/gtk:bg[NORMAL]/1.0"/>
+		<!--<color value="shade/gtk:bg[NORMAL]/1.04"/>-->		
+		<color value="shade/#EDEDED/1.1"/>
+		<color value="shade/#EDEDED/1.0"/>
 	</gradient>
 </draw_ops>
 
 <draw_ops name="titlebar_fill_unfocused">
 	<gradient type="vertical" x="1" y="1" width="width-2" height="height-2">
-		<color value="shade/gtk:bg[NORMAL]/1.10"/>
-		<color value="shade/gtk:bg[NORMAL]/1.06"/>
+		<color value="shade/#EDEDED/1.2"/>
+		<color value="shade/#EDEDED/1.0"/>
 	</gradient>
 </draw_ops>
 
 
 <draw_ops name="titlebar_fill_attached_focused"> <!-- gradient for attached and modal dialogs titlebar-->
 	<gradient type="vertical" x="0" y="0" width="width" height="title_height">
-		<color value="shade/gtk:bg[NORMAL]/0.80" />
-		<color value="shade/gtk:bg[NORMAL]/0.95" />
+		<color value="shade/gtk:bg[NORMAL]/1.2" />
 		<color value="gtk:bg[NORMAL]" />
 	</gradient>
 </draw_ops>

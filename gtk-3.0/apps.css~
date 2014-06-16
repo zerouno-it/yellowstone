@@ -164,7 +164,7 @@ ConversationListView.view.cell:selected {
  ********/
 
 .panel {
-    background-color: alpha (#BBB, 0.3);
+    background-color: alpha (#BBB, 0.9);
     color: #fff;
     font-weight: normal;
 }

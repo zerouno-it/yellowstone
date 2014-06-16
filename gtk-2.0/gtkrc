@@ -7,14 +7,14 @@
 #
 # See the file COPYING for the full license text.
 
-gtk_color_scheme	= "bg_color:#DEDEDE\nselected_bg_color:#4a90d9\nbase_color:#FFF"	# Background, base
+gtk_color_scheme	= "bg_color:#EDEDED\nselected_bg_color:#157EFB\nbase_color:#FFF"	# Background, base
 gtk_color_scheme	= "fg_color:#4D4D4D\nselected_fg_color:#FFF\ntext_color:#4D4D4D"	# Foreground, text
 gtk_color_scheme 	= "sidebar_color:#DEDEDE"                                           # Custom colors
 gtk_color_scheme	= "tooltip_bg_color:#000\ntooltip_fg_color:#FFF"                    # Tooltips
-gtk_color_scheme	= "link_color:#08C"                                                 # Hyperlinks
-gtk_color_scheme	= "frame_color:#D1D1D1\ninactive_frame_color:#D1D1D1"               # Fix for Chrome
+gtk_color_scheme	= "link_color:#157EFB"                                                 # Hyperlinks
+gtk_color_scheme	= "frame_color:#EDEDED\ninactive_frame_color:#EDEDED"               # Fix for Chrome
 gtk_color_scheme	= "bg_color_dark:#F0F0F0\ntext_color_dark:#4d4d4d\ntext_color_dark_selected:#FFF"                     # Dark colors - NO MORE DARKS
-gtk_color_scheme	= "widget_color:#EAEAEA"
+gtk_color_scheme	= "widget_color:#FFF"
 
 gtk-icon-sizes		= "gtk-button=16,16"				                                # Set icon size for buttons
 gtk-button-images	= 0									                                # Disables icons for buttons with text
@@ -295,8 +295,11 @@ style "murrine-notebook" = "murrine-default"
 
 style "murrine-progressbar" = "murrine-thin"
 {
-	bg[ACTIVE]				= shade (0.75, @bg_color)
-	bg[SELECTED]				= @bg_color
+	#bg[ACTIVE]				= shade (0.75, @bg_color)
+	#bg[SELECTED]				= @bg_color
+    
+    bg[ACTIVE]				= shade (0.75, @selected_bg_color)
+	bg[SELECTED]				= @selected_bg_color
 
 	engine "murrine" {
 		roundness 			= 100

@@ -181,7 +181,7 @@ GtkProgressBar,
 .trough row:selected:focused,
 GraniteWidgetsStatusBar {
     text-shadow: 0 1 alpha (#fff, 0.4);
-    /*icon-shadow: 0 1 alpha (#fff, 0.4);*/
+    icon-shadow: 0 1 alpha (#fff, 0.4);
 }
 
 /* white text */
@@ -203,7 +203,7 @@ GraniteWidgetsStatusBar {
 .menu *:prelight,
 .progressbar row {
     text-shadow: 0 1 alpha (#000, 0.3);
-    /*icon-shadow: 0 1 alpha (#000, 0.3);*/
+    icon-shadow: 0 1 alpha (#000, 0.3);
 }
 
 .title { font: raleway thin 36; }
@@ -1322,6 +1322,7 @@ GtkScale {
 }
 
 .linked .button{
+background-color: #555;
 	color: white;
 }
 

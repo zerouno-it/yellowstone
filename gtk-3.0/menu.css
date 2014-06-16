@@ -78,22 +78,24 @@
     border-width: 1px 0 1px 0;
     -unico-inner-stroke-width: 1px 0 1px 0;
 
-    background-color: @selected_bg_color;
     /*background-image: -gtk-gradient (linear,
                     left top,
                     left bottom,
                     from (shade (@selected_bg_color, 1.30)),
                     to (shade (@selected_bg_color, 0.98)));*/
+    background-color: @selected_bg_color;
 
-    -unico-border-gradient: -gtk-gradient (linear,
+    /*-unico-border-gradient: -gtk-gradient (linear,
                     left top, left bottom,
                     from (shade (@selected_bg_color, 1.05)),
-                    to (shade (@selected_bg_color, 0.88)));
+                    to (shade (@selected_bg_color, 0.88)));*/
+    -unico-border-color: @selected_bg_color;
 
-    -unico-inner-stroke-gradient: -gtk-gradient (linear,
+    /*-unico-inner-stroke-gradient: -gtk-gradient (linear,
                     left top, left bottom,
                     from (alpha (#fff, 0.30)),
-                    to (alpha (#fff, 0.06)));
+                    to (alpha (#fff, 0.06)));*/
+    -unico-inner-stroke-color: @selected_bg_color;
 
 }
 
