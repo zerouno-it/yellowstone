@@ -42,7 +42,6 @@
 .content-view GtkEventBox {
     background-image: none;
     background-color: @transparent;
-    background-color: red;
 }
 
 .content-view column-header .button {
