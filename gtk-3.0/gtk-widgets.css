@@ -467,6 +467,7 @@ GtkScrolledWindow {
 GtkSwitch {
     -GtkSwitch-slider-width: 22;
     -GtkSwitch-slider-height: 22;
+    /*padding: 1px 3px 1px 1px;*/
     padding: 1px 3px 1px 1px;
 }
 
@@ -504,7 +505,8 @@ GtkSwitch.trough:active:insensitive {
 GtkSwitch.slider {
     border: none;
     background-image: url("assets/switch-slider.svg");
-    background-size: 22px 22px;
+    background-size: 20px 20px;
+    padding: 2px 3px;
     background-position: center center;
     background-repeat: no-repeat;
     color: @transparent;
