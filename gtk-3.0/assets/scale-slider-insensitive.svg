@@ -156,7 +156,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="27.9"
-     inkscape:cx="18.306344"
+     inkscape:cx="12.714946"
      inkscape:cy="11.237196"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -212,19 +212,17 @@
        id="path3909-7"
        d="m 10.397672,22.000373 a 0.397672,0.397672 0 0 1 -0.795344,0 0.397672,0.397672 0 1 1 0.795344,0 z" />
     <g
-       style="fill-rule:evenodd;fill:#e6e6e6"
+       style="fill-rule:evenodd;"
        id="g3025"
        transform="matrix(0.09142859,0,0,0.09142859,-17.977149,-18.767097)">
       <g
-         id="g3013"
-         style="fill:#e6e6e6">
+         id="g3013">
         <g
-           id="g3015"
-           style="fill:#e6e6e6">
+           id="g3015">
           <path
              id="path3017"
              d="m 306,360.39 c 47.193,0 85.5,38.306 85.5,85.5 0,47.193 -38.307,85.5 -85.5,85.5 -47.193,0 -85.5,-38.307 -85.5,-85.5 0,-47.194 38.307,-85.5 85.5,-85.5 z"
-             style="fill:#e6e6e6;stroke:#e6e6e6;stroke-width:3.99996996000000000"
+             style="fill:#ffffff;stroke:#d2d2d2;stroke-width:3.99996996000000000;stroke-opacity:1;"
              inkscape:connector-curvature="0" />
         </g>
       </g>

@@ -467,7 +467,6 @@ GtkScrolledWindow {
 GtkSwitch {
     -GtkSwitch-slider-width: 22;
     -GtkSwitch-slider-height: 22;
-    /*padding: 1px 3px 1px 1px;*/
     padding: 1px 3px 1px 1px;
 }
 

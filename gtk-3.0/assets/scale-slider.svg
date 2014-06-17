@@ -15,7 +15,7 @@
    id="svg5980"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="scale-slider-focus.svg">
+   sodipodi:docname="scale-slider.svg">
   <defs
      id="defs5982">
     <linearGradient
@@ -156,7 +156,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="27.9"
-     inkscape:cx="18.306344"
+     inkscape:cx="12.714946"
      inkscape:cy="11.237196"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -176,7 +176,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -222,7 +222,7 @@
           <path
              id="path3017"
              d="m 306,360.39 c 47.193,0 85.5,38.306 85.5,85.5 0,47.193 -38.307,85.5 -85.5,85.5 -47.193,0 -85.5,-38.307 -85.5,-85.5 0,-47.194 38.307,-85.5 85.5,-85.5 z"
-             style="fill:#ffffff;stroke:#e6e6e6;stroke-width:3.99996996"
+             style="fill:#ffffff;stroke:#afafaf;stroke-width:3.99996996000000000;stroke-opacity:1"
              inkscape:connector-curvature="0" />
         </g>
       </g>

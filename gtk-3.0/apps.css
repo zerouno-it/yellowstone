@@ -165,26 +165,18 @@ ConversationListView.view.cell:selected {
 
 .panel {
     background-color: alpha (#BBB, 0.3);
-    color: #fff;
     font-weight: normal;
 }
 
-.panel-shadow {
-    background-color: @transparent;
-    background-image: -gtk-gradient (linear,
-                     left top, left bottom,
-                     from (alpha (#000, 0.3)),
-                     to (alpha (#000, 0.0)));
-}
-
-.panel-app-button {
+.panel-app-button{
     -GtkMenuItem-horizontal-padding: 6px;
+    font-weight: bold;
 }
 
 .composited-indicator {
     background-color: @transparent;
-    color: #fff;
     padding: 2px;
+    color: white;
 }
 
 .composited-indicator.menuitem:active,
@@ -192,7 +184,9 @@ ConversationListView.view.cell:selected {
     border-style: none;
     -unico-inner-stroke-width: 0;
     background-color: transparent;
+
 }
+
 
 /************
  * Terminal *
