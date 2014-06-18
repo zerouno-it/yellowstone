@@ -1361,14 +1361,12 @@ GtkPaned .frame {
     -unico-outer-stroke-width: 0;
     -unico-inner-stroke-width: 0;
     padding: 2px 6px;
+    color: @base_color;
+    background-color: @selected_bg_color;
 }
 
 .spinbutton .button:active,
 .spinbutton .button:active:hover {
-
-    background-color: alpha (#000, 0.05);
-	background-image: none;
-
     -unico-border-gradient: -gtk-gradient (linear,
                      left top, left bottom,
                      from (shade (@base_color, 0.74)),
@@ -1378,6 +1376,9 @@ GtkPaned .frame {
                     left top, left bottom,
                     from (alpha (#000, 0.07)),
                     to (alpha (#000, 0.03)));
+
+    color: @base_color;
+    background-color: @text_color;
 }
 
 .spinbutton .button:focus,
