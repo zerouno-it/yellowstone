@@ -123,8 +123,6 @@
     -unico-outer-stroke-width: 1;
     -unico-inner-stroke-width: 1;
 
-    color: @text_color;
-
     color: white;
 
     text-shadow: 0 1 alpha (#fff, 0.60);

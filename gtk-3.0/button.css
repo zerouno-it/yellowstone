@@ -28,7 +28,6 @@ GtkComboBox.combobox-entry .button {
 
 .button {
 
-    /*text-shadow: 0 1 alpha (#fff, 0.4);*/
     icon-shadow: 0 1 alpha (#fff, 0.4);
 
     border-radius: 2.5px;
@@ -45,18 +44,9 @@ GtkComboBox.combobox-entry .button {
     -GtkButton-inner-border: 3;
     -GtkButton-interior-focus: true;
 
-    /*background-image: -gtk-gradient (linear,
-            left top,
-            left bottom,
-            from (shade (@bg_color, 1.15)),
-            to (shade (@bg_color, 0.98)));*/
     background-color: white;
 
-    /*-unico-border-gradient: -gtk-gradient (linear,
-            left top, left bottom,
-            from (alpha (#000, 0.23)),
-            to (alpha (#000, 0.28)));*/
- -unico-border-gradient: -gtk-gradient (linear,
+    -unico-border-gradient: -gtk-gradient (linear,
             left top, left bottom,
             from (alpha (#666, 0.23)),
             to (alpha (#666, 0.28)));
@@ -114,12 +104,6 @@ GtkComboBox.combobox-entry .button {
 .button:active,
 .button:hover:active,
 .button:focus:active {
-
-    /*background-image: -gtk-gradient (linear,
-				     left top,
-				     left bottom,
-				     from (shade (@bg_color, 0.86)),
-				     to (shade (@bg_color, 0.95)));*/
     background-color: #E3E1E3;
 
     -unico-border-gradient: -gtk-gradient (linear,
@@ -248,11 +232,7 @@ GtkComboBox.combobox-entry .button {
 
 .button.affirmative,
 .content-view .button.affirmative {
-    /*background-image: -gtk-gradient (linear,
-                    left top,
-                    left bottom,
-                    from (shade (@selected_bg_color, 1.30)),
-                    to (shade (@selected_bg_color, 0.98)));*/
+
    background-color: @selected_bg_color;
 
     -unico-border-gradient: -gtk-gradient (linear,

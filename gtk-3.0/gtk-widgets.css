@@ -60,6 +60,8 @@
     -unico-focus-outer-stroke-color: transparent;
     -unico-inner-stroke-color: transparent;
     -unico-text-shadow-color: alpha (#fff, 0.30);
+
+
 }
 
 /*****************
@@ -69,6 +71,7 @@
 * {
     background-color: @bg_color;
     color: @text_color;
+
 }
 
 *:insensitive {
@@ -750,6 +753,7 @@ GtkComboBox.combobox-entry .button:last-child {
 
 .entry.image {
     color: shade (@text_color, 2);
+
 }
 
 .entry.image:hover {
@@ -836,6 +840,7 @@ GtkComboBox.combobox-entry .button:last-child {
     border-color: alpha (#000, 0.30);
 
     color: @text_color;
+
     border-radius: 4px;
 
     border-width: 1px;
@@ -1126,6 +1131,7 @@ ConversationList.view.cell {
 @import url("progressbar.css");
 @import url("apps.css");
 
+
 /**********************
  * Column Headers *
  *********************/
@@ -1231,101 +1237,6 @@ GtkScale {
     transition: 500ms linear loop;
  }
 
-/*********
-* Linked *
-*********/
-
-/* Middle button */
-.linked .entry,
-.linked .button,
-.linked .button:active,
-.linked .button:active:hover,
-.linked .button:focus,
-.linked .button:focus:active,
-.linked .button:insensitive {
-    border-right-width: 0;
-    -unico-outer-stroke-width: 1px 0 1px 0;
-    border-radius: 0;
-}
-
-/*********
-* Linked *
-*********/
-
-/* Middle button */
-.linked .entry,
-.linked .button,
-.linked .button:active,
-.linked .button:active:hover,
-.linked .button:focus,
-.linked .button:focus:active,
-.linked .button:insensitive {
-    border-right-width: 0;
-    -unico-outer-stroke-width: 1px 0 1px 0;
-    border-radius: 0;
-
-}
-
-/* Leftmost button */
-.linked .entry:first-child,
-.linked .button:first-child,
-.linked .button:active:first-child,
-.linked .button:active:hover:first-child,
-.linked .button:focus:first-child,
-.linked .button:focus:active:first-child,
-.linked .button:insensitive:first-child {
-    -unico-outer-stroke-width: 1px 0 1px 1px;
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 2.5px;
-    border-top-left-radius: 2.5px;
-
-}
-
-/* Rightmost button */
-.linked .entry:last-child,
-.linked .button:last-child,
-.linked .button:active:last-child,
-.linked .button:active:hover:last-child,
-.linked .button:focus:last-child,
-.linked .button:focus:active:last-child,
-.linked .button:insensitive:last-child {
-    border-right-width: 1px;
-    -unico-outer-stroke-width: 1px 1px 1px 0;
-    border-bottom-right-radius: 2.5px;
-    border-top-right-radius: 2.5px;
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
-
-}
-
-/* Linked single button */
-.linked .entry:only-child,
-.linked .button:only-child,
-.linked .button:active:only-child,
-.linked .button:active:hover:only-child,
-.linked .button:focus:only-child,
-.linked .button:focus:active:only-child,
-.linked .button:insensitive:only-child {
-    border-width: 1px;
-    -unico-outer-stroke-width: 1px;
-    border-radius: 2.5px;
-}
-
-.linked .button:active,
-.linked .button:active:first-child,
-.linked .button:active:last-child,
-.linked GtkMenuButton.button:active,
-.linked .button:active:only-child
-{
-	background-color: #555;
-	color: white;
-}
-
-.linked .button{
-	color: white;
-}
-
 /**********
  * Frames *
  **********/
@@ -1406,4 +1317,108 @@ GtkPaned .frame {
     border-width: 1px 0 0 0;
     border-radius: 2px 0 0 2px;
     -unico-outer-stroke-width: 0;
+}
+
+
+/*********
+* Linked *
+*********/
+
+/* Middle button */
+.linked .entry,
+.linked .button,
+.linked .button:active,
+.linked .button:focus,
+.linked .button:focus:active,
+.linked .button:insensitive {
+    border-right-width: 0;
+    -unico-outer-stroke-width: 1px 0 1px 0;
+    border-radius: 0;
+    background-color: @base_color;
+}
+
+/*********
+* Linked *
+*********/
+
+/* Middle button */
+.linked .entry,
+.linked .button,
+.linked .button:active,
+.linked .button:active:hover,
+.linked .button:focus,
+.linked .button:focus:active,
+.linked .button:insensitive {
+    border-right-width: 0;
+    -unico-outer-stroke-width: 1px 0 1px 0;
+    border-radius: 0;
+}
+
+/* Leftmost button */
+.linked .entry:first-child,
+.linked .button:first-child,
+.linked .button:active:first-child,
+.linked .button:active:hover:first-child,
+.linked .button:focus:first-child,
+.linked .button:focus:active:first-child,
+.linked .button:insensitive:first-child {
+    -unico-outer-stroke-width: 1px 0 1px 1px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 2.5px;
+    border-top-left-radius: 2.5px;
+}
+
+/* Rightmost button */
+.linked .entry:last-child,
+.linked .button:last-child,
+.linked .button:active:last-child,
+.linked .button:active:hover:last-child,
+.linked .button:focus:last-child,
+.linked .button:focus:active:last-child,
+.linked .button:insensitive:last-child {
+    border-right-width: 1px;
+    -unico-outer-stroke-width: 1px 1px 1px 0;
+    border-bottom-right-radius: 2.5px;
+    border-top-right-radius: 2.5px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+
+}
+
+/* Linked single button */
+.linked .entry:only-child,
+.linked .button:only-child,
+.linked .button:active:only-child,
+.linked .button:active:hover:only-child,
+.linked .button:focus:only-child,
+.linked .button:focus:active:only-child,
+.linked .button:insensitive:only-child {
+    border-width: 1px;
+    -unico-outer-stroke-width: 1px;
+    border-radius: 2.5px;
+}
+
+
+/* Linked active button */
+.linked .button:active,
+.linked .button:active:first-child,
+.linked .button:active:last-child,
+.linked .button GtkLabel:active,
+.linked .button:active:only-child
+{
+    background-color: @text_color;
+    color: @base_color;
+}
+
+GtkToolItem,
+GtkToolItem *:hover{
+    color: @selected_bg_color;
+    border-color: @base_color;
+    transition: 150ms ease-in-out;
+}
+
+#viewmode{
+    color: white;
+    background-color: red;
 }

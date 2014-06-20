@@ -67,6 +67,7 @@
                     to (alpha (#000, 0.10)));
 }
 
+
 .sidebar.view:selected:backdrop,
 .sidebar.view:prelight:selected:backdrop,
 .source-list.view:selected:backdrop,
@@ -283,6 +284,7 @@ GraniteWidgetsPopOver .entry {
                      left top, left bottom,
                      from (alpha (#000, 0.00)),
                      to (alpha (#000, 0.00)));
+
 }
 
 .app:hover {

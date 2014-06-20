@@ -65,8 +65,6 @@
     border-color: shade (@inactive_frame_color, 0.845);
 }
 
-.scale.trough.horizontal {
-}
 
 .scale.trough.vertical {
     background-image: -gtk-gradient (linear,
