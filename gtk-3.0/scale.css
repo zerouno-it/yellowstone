@@ -130,3 +130,20 @@
                                            from (shade (@bg_color, 0.40)),
                                            to (shade (@bg_color, 0.40)));
 }
+
+
+/*-------------------------------------------------------------------------------*/
+
+.scale.trough.horizontal {
+    margin: 6px 0 5px 0;
+    border-radius: 8px;
+    background-image: none;
+    background-color: shade (@bg_color,0.8);
+    border: none;
+}
+
+.trough.vertical,
+.scale.trough.vertical.highlight.bottom,
+.scale.trough.horizontal.highlight.left {
+    background-color: @selected_bg_color;
+}

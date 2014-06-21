@@ -99,7 +99,6 @@ GtkProgressBar.trough,
 GtkComboBox.combobox-entry .button:last-child {
     -unico-outer-stroke-style: custom;
 	border: 1px solid;
-	-unico-inner-stroke-width: 1px;
 	-unico-outer-stroke-width: 1px;
 }
 
