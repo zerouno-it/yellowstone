@@ -138,8 +138,6 @@ GtkProgressBar.progressbar {
                     from (shade (@selected_bg_color, 0.87)),
                     to (shade (@selected_bg_color, 0.80)));
 
-
-    background-color: red;
     background-image: none;
 }
 
