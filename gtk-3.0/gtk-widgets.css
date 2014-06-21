@@ -1333,7 +1333,6 @@ GtkPaned .frame {
     border-right-width: 0;
     -unico-outer-stroke-width: 1px 0 1px 0;
     border-radius: 0;
-    background-color: @base_color;
 }
 
 /*********
@@ -1412,12 +1411,6 @@ GtkPaned .frame {
 
 GtkToolItem,
 GtkToolItem *:hover{
-    color: @selected_bg_color;
-    border-color: @base_color;
+    color: shade (@bg_color, .8);
     transition: 150ms ease-in-out;
-}
-
-#viewmode{
-    color: white;
-    background-color: red;
 }
