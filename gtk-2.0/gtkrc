@@ -118,7 +118,7 @@ style "murrine-default"
 		animation               = TRUE
 		arrowstyle              = 1
 		border_shades		    = { 1.15, 0.85 }
-		colorize_scrollbar	    = FALSE
+		colorize_scrollbar	    = TRUE
 		contrast                = 1.1
 		default_button_color	= @bg_color
 		focusstyle              = 0		
