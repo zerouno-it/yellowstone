@@ -35,7 +35,7 @@
 				     left top,
 				     left bottom,
 				     from (@bg_color),
-				     to (shade (@bg_color, 0.84)));
+				     to (shade (@bg_color, 0.9)));
 }
 
 .toolbar .separator {
@@ -55,8 +55,8 @@
     background-image: -gtk-gradient (linear,
 		     left top,
 		     left bottom,
-		     from (shade (@bg_color, 0.84)),
-		     to (shade (@bg_color, 0.80)));
+		     from (shade (@bg_color, 0.9)),
+		     to (shade (@bg_color, 0.86)));
 
     border-color: shade (@bg_color, 0.50);
 }
@@ -85,7 +85,7 @@
 				     left top,
 				     left bottom,
 				     from (@bg_color),
-				     to (shade (@bg_color, 0.88)));
+				     to (shade (@bg_color, 0.9)));
 }
 
 .bottom-toolbar.toolbar .button {

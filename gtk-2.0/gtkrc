@@ -333,14 +333,13 @@ style "murrine-progressbar" = "murrine-thin"
 {
     bg[ACTIVE]				= shade (0.75, @bg_color)
 	bg[SELECTED]			= @selected_bg_color
+	fg[PRELIGHT]            = @bg_color
+	fg[SELECTED]            = @bg_color
 
 	engine "murrine" {
 		roundness 			= 100
-		highlight_shade     		= 1.0 
-		lightborder_shade   		= 2.0
-		trough_shades       		= {1.00,1.16}
+		trough_shades       = {1.00,1.16}
 		contrast			= 1.13
-		border_shades 			= {1.0, 0.9}
 	}
 }
 

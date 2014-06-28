@@ -164,7 +164,7 @@ ConversationListView.view.cell:selected {
  ********/
 
 .panel {
-    background-color: alpha (#BBB, 0.3);
+    background-color: alpha (@bg_color, 0.5);
     font-weight: normal;
 }
 
@@ -176,15 +176,24 @@ ConversationListView.view.cell:selected {
 .composited-indicator {
     background-color: @transparent;
     padding: 2px;
-    color: white;
+    /* OS X Gradient
+    background-image: -gtk-gradient (linear, center top, center bottom,
+                                     from (shade (@bg_color, 0.9)),
+                                     to (@bg_color));*/
+    color: @text_color;
 }
+
+.composited-indicator:active,
+.composited-indicator:prelight{
+    color: @text_color;
+}
+
 
 .composited-indicator.menuitem:active,
 .composited-indicator.menuitem:prelight {
     border-style: none;
     -unico-inner-stroke-width: 0;
     background-color: transparent;
-
 }
 
 
