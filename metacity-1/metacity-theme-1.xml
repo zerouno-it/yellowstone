@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <metacity_theme>
 <info>
-  <name>elementary</name>
-  <author>elementart Art Team</author>
+  <name>Yellowstone</name>
+  <author>Lógico [software + hosting]</author>
   <copyright>GPL</copyright>
-  <date>November 2009</date>
-  <description>A pleasant theme built to adapt to many color schemes as well as be optimal for both high and low resolution displays.</description>
+  <date>June 2014</date>
+  <description>An OS X Yosemite like ElementaryOS Luna theme. It's based on the excellente Elementary default theme</description>
 </info>
 
 <!-- ::: GEOMETRY ::: -->
