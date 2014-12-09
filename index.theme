@@ -1,14 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=yellowstone
-Comment=Modded Elementary default theme like OS X Yosemite
+Name=Yellowstone
+Comment=OS X Yosemite like theme
 Encoding=UTF-8
 
-Name[en_US]=yellowstone
-
 [X-GNOME-Metatheme]
-GtkTheme=yellowstone
-MetacityTheme=yellowstone
+GtkTheme=Yellowstone
+MetacityTheme=Yellowstone
 IconTheme=numix-circle
 CursorTheme=DMZ-Black
 ButtonLayout=close,minimize,maximize:
