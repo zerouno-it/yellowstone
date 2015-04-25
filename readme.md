@@ -12,7 +12,7 @@ Yellowstone is an OS X Yosemite like theme.
 
 ## Bug Reports
 
-To report Bugs, please fill out an [issue](issues).
+To report Bugs, please fill out an [issue](https://github.com/zerouno-it/yellowstone/issues).
 
 
 
